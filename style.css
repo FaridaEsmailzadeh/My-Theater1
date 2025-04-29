@@ -1,0 +1,55 @@
+body {
+    font-family: 'Crimson Pro', sans-serif;
+    background-color: #fef8f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  header {
+    background-color: #ffdddd;
+    padding: 20px;
+    border-bottom: 2px solid #ff9999;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #cc0000;
+  }
+  
+  h5, h3 {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  <div class="video-container">
+    <video controls>
+      <source src="VID_20250429_083706_406.mp4" type="video/mp4">
+    </video>
+  </div>
+  .buttons {
+    margin: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff6666;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #cc0000;
+  }
+  
+  footer{
+    background-color: #eb9292;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 50px;
+  }
